@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #107ea3;
+    color: #000000;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+h4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+h1,
+h2,
+h4 {
+    font-family: 'Libre Baskerville', sans-serif;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-size: 15px;
+    margin: 10px;
+    line-height: 1.7em;
+    font-weight: 200;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border: 1px solid #090909;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.extenso {
+    font-size: 18px;
+}
+
+.display-1 {
+    font-size: 80px;
+}
+
+#encabezado {
+    background: url('/imagenes/portada3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#navbar {
+    height: 120px;
+}
+
+#navbar .logo img {
+    height:  100px;
+}
+
+#navbar a {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    margin-left: 40px;
+}
+
+#titulo {
+    text-align: center;
+    padding-top: 200px;
+}
+
+#informacion {
+    padding: 80px 0;
+}
+
+#informacion h2 {
+    text-align: center;
+}
+
+#informacion .contenido {
+    display: flex;
+}
+
+#informacion .contenido-recuadro {
+    border: 10px solid #1c1c1c1c;
+    margin: 10px;
+    padding: 30px;
+}
+
+#informacion .contenido-recuadro p {
+    padding-bottom: 17px;
+    text-align: justify;
+}
+
+#cashea {
+    padding: 80px 0;
+    display: flex;
+}
+
+#cashea .texto {
+    padding: 60px 50px;
+}
+
+#cashea .texto h2 {
+    text-align: center;
+}
+
+#cashea .texto p {
+    padding-bottom: 30px;
+}
+
+#contacto {
+    padding: 100px 0;
+}
+
+#contacto .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#contacto .contacto_logo,
+#contacto .contacto_info,
+#contacto .contacto_social{
+    flex: 1;
+
+}
+
+#contacto .contacto_info h2 {
+    color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+#contacto .contacto_info p {
+    color: rgb(0, 0, 0);
+    padding: 30px;
+}
+
+#contacto .contacto_logo img {
+    height: 90px;
+}
+
+#contacto .contacto_logo  {
+    text-align: center;
+}
+
+#contacto .contacto_social {
+    text-align: right;
+}
+
+#contacto .contacto_social img{
+    height: 20px;
+    margin: 2px;
+}
+
+#footer {
+    text-align: center;
+    padding: 30px;
+}
+
+
+

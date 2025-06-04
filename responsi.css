@@ -1,0 +1,76 @@
+.display-1 {
+    font-size: 50px;
+}
+
+#encabezado {
+    height: 100%;
+    width: 100%;
+}
+
+#navbar ul li {
+    margin-left: 20px;
+}
+
+#titulo {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+#informacion .contenido {
+    flex-direction: column;
+}
+
+#cashea {
+   flex-direction: column;
+}
+
+#cashea .texto {
+    padding: 60px 50px;
+}
+
+#cashea .texto h2 {
+    text-align: center;
+}
+
+#cashea .texto p {
+    padding-bottom: 30px;
+}
+
+#contacto {
+    padding: 80px 0;
+}
+
+#contacto .contacto_info h2 {
+    font-size: 14px;
+    padding: 10px;
+    text-align: center;
+}
+
+#contacto .contacto_info p {
+    font-size: 14px;
+    padding: 10px;
+}
+
+#contacto .contacto_logo img {
+    height: 60px;
+}
+
+#contacto .contacto_logo  {
+    text-align: center;
+}
+
+#contacto .contacto_social {
+    height: 30px;
+    margin: 5px;
+    text-align: right;
+}
+
+#contacto .contacto_social {
+    text-align: right;
+    
+}
+
+#footer {
+    text-align: center;
+    padding: 30px;
+}
