@@ -68,7 +68,7 @@ hr {
 }
 
 #encabezado {
-    background: url('/imagenes/portada3.jpg');
+    background: url('/imagenes/portada.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -197,6 +197,22 @@ hr {
 #footer {
     text-align: center;
     padding: 30px;
+}
+
+.main-container {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px;
+}
+
+.formulario-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 450px;
 }
 
 
